@@ -1,0 +1,32 @@
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+#todo-list li {
+  background: #f5f5f5;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  border-left: 4px solid #4a90e2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#todo-list button {
+  width: auto;
+  padding: 0.5rem 1rem;
+  background: #ff4d4f;
+  font-size: 0.9rem;
+}
+
+#todo-list button:hover {
+  background: #d32029;
+}
