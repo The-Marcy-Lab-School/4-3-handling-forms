@@ -1,0 +1,9 @@
+{
+  "name": "4-4-handling-forms",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "vite": "^7.2.4"
+  }
+}

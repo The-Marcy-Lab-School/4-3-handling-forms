@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+form > div {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  min-height: 1.25rem;
+}
+
+input.error {
+  border: 2px solid red;
+}
+
+input.valid {
+  border: 2px solid green;
+}
+
+#success-message {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid green;
+  display: none;
+}
+
+#success-message.show {
+  display: block;
+}
